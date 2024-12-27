@@ -49,7 +49,7 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "I specialize in crafting secure, scalable web apps and APIs using Python, JavaScript, Django, and Flask.",
+  subTitle: "I specialize in crafting secure, scalable web apps and APIs using Python, JavaScript, Django and Flask.",
   skills: [
     emoji(
       "⚡ Design and develop highly interactive Front end / User Interfaces for your web and mobile applications"
