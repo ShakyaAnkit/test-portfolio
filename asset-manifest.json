@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.9c9afc7d.css",
-    "main.js": "/static/js/main.e90284a5.js",
+    "main.js": "/static/js/main.2f67f9a0.js",
     "static/css/64.bba8fa55.chunk.css": "/static/css/64.bba8fa55.chunk.css",
     "static/js/64.1a996bcc.chunk.js": "/static/js/64.1a996bcc.chunk.js",
     "static/css/769.b3cbb36b.chunk.css": "/static/css/769.b3cbb36b.chunk.css",
@@ -11,7 +11,7 @@
     "static/media/prixa.jpg": "/static/media/prixa.77f756e09ff7704cbd5d.jpg",
     "static/media/manOnTable.svg": "/static/media/manOnTable.8f117eb207e57ed8f89d67d595aceb45.svg",
     "static/media/ITS-Badges_Python_1200px.png": "/static/media/ITS-Badges_Python_1200px.aabaf90ba473326ed608.png",
-    "static/media/usc_logo.jpg": "/static/media/usc_logo.ecaf22fb8964cba2ab0f.jpg",
+    "static/media/usc_logo.jpg": "/static/media/usc_logo.8d714d82c8f3adcfb9b9.jpg",
     "static/media/CERT-Fundamentals-Power-Platform.png": "/static/media/CERT-Fundamentals-Power-Platform.2e03200e33206899afcf.png",
     "static/media/security-compliance-and-identity-fundamentals-600x600.png": "/static/media/security-compliance-and-identity-fundamentals-600x600.f7a894e9b2d75b580c5a.png",
     "static/media/Kurukshetra_University_logo.png": "/static/media/Kurukshetra_University_logo.857991581cf821c312dd.png",
@@ -24,7 +24,7 @@
     "index.html": "/index.html",
     "static/media/talksCardBack.svg": "/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
     "main.9c9afc7d.css.map": "/static/css/main.9c9afc7d.css.map",
-    "main.e90284a5.js.map": "/static/js/main.e90284a5.js.map",
+    "main.2f67f9a0.js.map": "/static/js/main.2f67f9a0.js.map",
     "64.bba8fa55.chunk.css.map": "/static/css/64.bba8fa55.chunk.css.map",
     "64.1a996bcc.chunk.js.map": "/static/js/64.1a996bcc.chunk.js.map",
     "769.b3cbb36b.chunk.css.map": "/static/css/769.b3cbb36b.chunk.css.map",
@@ -32,6 +32,6 @@
   },
   "entrypoints": [
     "static/css/main.9c9afc7d.css",
-    "static/js/main.e90284a5.js"
+    "static/js/main.2f67f9a0.js"
   ]
 }
