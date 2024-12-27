@@ -46,7 +46,7 @@ export default function Greeting() {
                     target="https://rxresu.me/shakyaankitt001/software-enginner-ankit"
                     className="download-link-button"
                   >
-                    <Button text="Have a look at my resume" />
+                    <Button text="Check my resume" />
                   </a>
                 )}
               </div>
