@@ -255,6 +255,19 @@ const achievementSection = {
 
   achievementsCards: [
     {
+      title: "Microsoft Certified: Azure AI Fundamentals",
+      subtitle:
+        "Completed Certifcation from Microsoft for Azure AI Fundamentals",
+      image: require("./assets/images/azure-ai-fundamentals.png"),
+      imageAlt: "Microsoft Certified: Azure AI Fundamentals Badge",
+      footerLink: [
+        {
+          name: "Certification",
+          url: "https://www.credly.com/badges/08f654e9-70fb-4bec-b92e-4bb25639e138/linked_in_profile"
+        }
+      ]
+    },
+    {
       title: "IT Specialist - Python",
       subtitle:
         "Completed Certifcation for IT Specialist - Python",
