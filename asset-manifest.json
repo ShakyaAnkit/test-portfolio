@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.9c9afc7d.css",
-    "main.js": "/static/js/main.ed333d75.js",
+    "main.js": "/static/js/main.26adb4d0.js",
     "static/css/64.bba8fa55.chunk.css": "/static/css/64.bba8fa55.chunk.css",
     "static/js/64.1a996bcc.chunk.js": "/static/js/64.1a996bcc.chunk.js",
     "static/css/769.b3cbb36b.chunk.css": "/static/css/769.b3cbb36b.chunk.css",
@@ -15,6 +15,7 @@
     "static/media/CERT-Fundamentals-Power-Platform.png": "/static/media/CERT-Fundamentals-Power-Platform.2e03200e33206899afcf.png",
     "static/media/security-compliance-and-identity-fundamentals-600x600.png": "/static/media/security-compliance-and-identity-fundamentals-600x600.f7a894e9b2d75b580c5a.png",
     "static/media/Kurukshetra_University_logo.png": "/static/media/Kurukshetra_University_logo.857991581cf821c312dd.png",
+    "static/media/azure-ai-fundamentals.png": "/static/media/azure-ai-fundamentals.5c3563ba51e135f5b1de.png",
     "static/media/contactMailDark.svg": "/static/media/contactMailDark.1db650d351729a0f17b4e3104e6a7b7a.svg",
     "static/media/developerActivity.svg": "/static/media/developerActivity.2c0445cae86f4243433a2f5a22b2c031.svg",
     "static/media/logpoint.jpg": "/static/media/logpoint.26181cb661c60466911d.jpg",
@@ -24,7 +25,7 @@
     "index.html": "/index.html",
     "static/media/talksCardBack.svg": "/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
     "main.9c9afc7d.css.map": "/static/css/main.9c9afc7d.css.map",
-    "main.ed333d75.js.map": "/static/js/main.ed333d75.js.map",
+    "main.26adb4d0.js.map": "/static/js/main.26adb4d0.js.map",
     "64.bba8fa55.chunk.css.map": "/static/css/64.bba8fa55.chunk.css.map",
     "64.1a996bcc.chunk.js.map": "/static/js/64.1a996bcc.chunk.js.map",
     "769.b3cbb36b.chunk.css.map": "/static/css/769.b3cbb36b.chunk.css.map",
@@ -32,6 +33,6 @@
   },
   "entrypoints": [
     "static/css/main.9c9afc7d.css",
-    "static/js/main.ed333d75.js"
+    "static/js/main.26adb4d0.js"
   ]
 }
