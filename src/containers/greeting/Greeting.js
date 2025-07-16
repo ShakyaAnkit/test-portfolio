@@ -42,8 +42,8 @@ export default function Greeting() {
                 <Button text="Contact me" href="#contact" />
                 {greeting.resumeLink && (
                   <a
-                    href="https://rxresu.me/shakyaankitt001/software-enginner-ankit"
-                    target="https://rxresu.me/shakyaankitt001/software-enginner-ankit"
+                    href="https://rxresu.me/shakyaankitt001/ankit-software-engineer"
+                    target="https://rxresu.me/shakyaankitt001/ankit-software-engineer"
                     className="download-link-button"
                   >
                     <Button text="Check my resume" />

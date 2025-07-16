@@ -26,7 +26,7 @@ const greeting = {
     "Passionate Software Engineer and Frontend Designer here, turning code and designs into magic! Ready to bring my enthusiasm and skills to projects that push boundaries and create exceptional software. Let's make some coding and design magic together!"
   ),
   resumeLink:
-    "https://rxresu.me/shakyaankitt001/software-enginner-ankit", // Set to empty to hide the button
+    "https://rxresu.me/shakyaankitt001/ankit-software-engineer", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
