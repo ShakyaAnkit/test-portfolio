@@ -101,6 +101,10 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fas fa-database"
     },
     {
+      skillName: "postgresql",
+      fontAwesomeClassname: "fas fa-database"
+    },
+    {
       skillName: "mongodb",
       fontAwesomeClassname: "fas fa-database"
     },
@@ -108,10 +112,10 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "aws",
       fontAwesomeClassname: "fab fa-aws"
     },
-    // {
-    //   skillName: "firebase",
-    //   fontAwesomeClassname: "fas fa-fire"
-    // },
+    {
+      skillName: "firebase",
+      fontAwesomeClassname: "fas fa-fire"
+    },
     {
       skillName: "python",
       fontAwesomeClassname: "fab fa-python"
@@ -178,28 +182,41 @@ const workExperiences = {
       role: "Associate Software Engineer",
       company: "Logpoint",
       companylogo: require("./assets/images/logpoint.jpg"),
+      companylink: "https://www.logpoint.com/",
       date: "Oct 2022 – Feb 2024",
       desc: "",
       descBullets: [
-        // "Development and maintenance of plugins to fetch logs from third party services like SalesForce, AWS, Google Cloud Console, and Azure.",
-        // "Revamping and refactoring of service logic on UniversalRestAPIFetcher. Successful delivery of three versions of the application with enhancements and fixes.",
-        // "Integration of STIX/TAXII 2.1 as a threat intelligence source on the operational ThreatIntelligence application.",
-        // "Migration of Logpoint services onto AWS cloud." 
+        "Development and maintenance of plugins to fetch logs from third party services like SalesForce, AWS, Google Cloud Console, and Azure.",
+        "Revamping and refactoring of service logic on UniversalRestAPIFetcher. Successful delivery of three versions of the application with enhancements and fixes.",
+        "Integration of STIX/TAXII 2.1 as a threat intelligence source on the operational ThreatIntelligence application.",
+        "Migration of Logpoint services onto AWS cloud." 
       ]
     },
     {
       role: "Django Developer",
       company: "Prixa",
       companylogo: require("./assets/images/prixa.jpg"),
+      companylink: "https://prixa.net/",
       date: "Dec 2020 - Aug 2022",
-      desc: ""
+      desc: "",
+      descBullets: [
+        "Built secure REST APIs and appointment systems for hospital networks",
+        "Developed real-time monitoring and alerting tools for web platforms",
+        "Engineered high-performance news portals handling 50k+ daily users",
+        "Designed a notice system for Nepal government tenders and public information"
+      ]
     },
     {
       role: "Frontend Intern",
       company: "CartoonMango",
+      companylink: "https://www.cartoonmango.com/",
       companylogo: require("./assets/images/cartoonmango.jpg"),
       date: "April 2019 - Sep 2019",
-      desc: ""
+      desc: "",
+      descBullets: [
+        "Learned responsive design principles and frontend frameworks",
+        "Converted business requirements into intuitive web interfaces",
+      ]
     }
   ]
 };
@@ -215,34 +232,34 @@ const openSource = {
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  title: "Projects",
+  // subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: "https://github.githubassets.com/assets/GitHub-Mark-ea2971cee799.png",
+      projectName: "Localstack + Terraform AWS cloud infrastructure",
+      projectDesc: "Implemented a local AWS cloud environment using LocalStack, Docker, AWS CLI, and Terraform. The setup provisions 100 AWS instances locally, enabling cloud application development and testing without incurring AWS costs.",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://saayahealth.com/"
+          name: "Link to Project",
+          url: "https://github.com/ShakyaAnkit/terraform-localstack-aws-dev"
         }
         //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: "https://www.wvi.org/sites/default/files/styles/social_preview_square/public/2024-10/Sikka%20hero%20image.jpg?itok=VZhDeLzu",
+      projectName: "Sikka",
+      projectDesc: "Sikka is a blockchain-based platform that streamlines cash and voucher assistance programs. It issues secure digital tokens via SMS, redeemable at authorized merchants, ensuring transparency, traceability, and efficient last-mile aid distribution.",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://nextu.se/"
+          name: "Learn More",
+          url: "https://www.wvi.org/publications/brochure/nepal/sikka-cash-and-voucher-assistance"
         }
       ]
     }
   ],
-  display: false // Set false to hide this section, defaults to true
+  display: true // Set false to hide this section, defaults to true
 };
 
 // Achievement Section
@@ -264,6 +281,19 @@ const achievementSection = {
         {
           name: "Certification",
           url: "https://www.credly.com/badges/08f654e9-70fb-4bec-b92e-4bb25639e138/linked_in_profile"
+        }
+      ]
+    },
+    {
+      title: "Microsoft Certified: Azure Data Fundamentals",
+      subtitle:
+        "Completed Certifcation from Microsoft for Azure Data Fundamentals",
+      image: require("./assets/images/azure-data-fundamentals-600x600.png"),
+      imageAlt: "Microsoft Certified: Azure Data Fundamentals Badge",
+      footerLink: [
+        {
+          name: "Certification",
+          url: "https://www.credly.com/badges/be4f7aef-34a4-4b47-801b-6be7e7b3f843"
         }
       ]
     },

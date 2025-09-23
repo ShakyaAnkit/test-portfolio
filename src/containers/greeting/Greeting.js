@@ -2,7 +2,7 @@ import React, {useContext} from "react";
 import {Fade} from "react-reveal";
 import emoji from "react-easy-emoji";
 import "./Greeting.scss";
-import landingPerson from "../../assets/lottie/landingPerson";
+import Hi from "../../assets/lottie/Hi";
 import DisplayLottie from "../../components/displayLottie/DisplayLottie";
 import SocialMedia from "../../components/socialMedia/SocialMedia";
 import Button from "../../components/button/Button";
@@ -46,7 +46,7 @@ export default function Greeting() {
                     target="https://rxresu.me/shakyaankitt001/ankit-software-engineer"
                     className="download-link-button"
                   >
-                    <Button text="Check my resume" />
+                    <Button text="View resume" />
                   </a>
                 )}
               </div>
@@ -54,7 +54,7 @@ export default function Greeting() {
           </div>
           <div className="greeting-image-div">
             {illustration.animated ? (
-              <DisplayLottie animationData={landingPerson} />
+              <DisplayLottie animationData={Hi} />
             ) : (
               <img
                 alt="man sitting on table"
