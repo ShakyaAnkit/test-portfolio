@@ -10,7 +10,7 @@ import splashAnimation from "./assets/lottie/splashAnimation"; // Rename to your
 const splashScreen = {
   enabled: true, // set false to disable splash screen
   animation: splashAnimation,
-  duration: 2000 // Set animation duration as per your animation
+  duration: 700 // Set animation duration as per your animation
 };
 
 // Summary And Greeting Section
@@ -21,9 +21,9 @@ const illustration = {
 
 const greeting = {
   username: "Ankit Shakya",
-  title: "Hi all, I'm Ankit",
+  title: "Hi, I'm Ankit",
   subTitle: emoji(
-    "Passionate Software Engineer and Frontend Designer here, turning code and designs into magic! Ready to bring my enthusiasm and skills to projects that push boundaries and create exceptional software. Let's make some coding and design magic together!"
+    "Passionate Software Engineer and a lifelong learner here, turning code and designs into magic! Ready to bring my enthusiasm and skills to projects that push boundaries and create exceptional software. Let's innovate together! 🚀"
   ),
   resumeLink:
     "https://rxresu.me/shakyaankitt001/ankit-software-engineer", // Set to empty to hide the button
@@ -52,11 +52,11 @@ const skillsSection = {
   subTitle: "I specialize in crafting secure, scalable web apps and APIs using Python, JavaScript, Django and Flask.",
   skills: [
     emoji(
-      "⚡ Design and develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      "Design and develop highly interactive Front end / User Interfaces for your web and mobile applications"
     ),
-    emoji("⚡ Develop restful APIs using Django and Flask"),
+    emoji("Develop restful APIs using Django and Flask"),
     emoji(
-      "⚡ Integration of third party services and application"
+      "Integration of third party services and application"
     )
   ],
 
@@ -166,8 +166,8 @@ const techStack = {
       progressPercentage: "90%"
     },
     {
-      Stack: "Programming",
-      progressPercentage: "80%"
+      Stack: "Deployment",
+      progressPercentage: "60%"
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -179,6 +179,18 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
+      role: "Software Engineer Intern",
+      company: "Jaimee",
+      companylogo: require("./assets/images/company-jaimee.jpeg"),
+      companylink: "https://www.jaimee.ai",
+      date: "July 2025 – Present",
+      desc: "",
+      descBullets: [
+        "Architected a RAG pipeline with PostgreSQL vector DB using LangChain, integrating OpenAI and Anthropic LLMs for context-aware AI responses.",
+        "Designed RESTful API schemas and AWS cloud infrastructure, enabling scalable microservices for production-ready applications."
+      ]
+    },
+    {
       role: "Associate Software Engineer",
       company: "Logpoint",
       companylogo: require("./assets/images/logpoint.jpg"),
@@ -186,10 +198,10 @@ const workExperiences = {
       date: "Oct 2022 – Feb 2024",
       desc: "",
       descBullets: [
-        "Development and maintenance of plugins to fetch logs from third party services like SalesForce, AWS, Google Cloud Console, and Azure.",
-        "Revamping and refactoring of service logic on UniversalRestAPIFetcher. Successful delivery of three versions of the application with enhancements and fixes.",
-        "Integration of STIX/TAXII 2.1 as a threat intelligence source on the operational ThreatIntelligence application.",
-        "Migration of Logpoint services onto AWS cloud." 
+        "Developed and maintained log-fetching plugins for Salesforce, AWS, Google Cloud, and Azure.",
+        "Refactored UniversalRestAPIFetcher, delivering three improved versions with enhanced performance.",
+        "Integrated STIX/TAXII 2.1 threat intelligence into the ThreatIntelligence application.",
+        "Migrated Logpoint services to AWS Cloud, improving scalability and deployment flexibility."
       ]
     },
     {
@@ -216,6 +228,7 @@ const workExperiences = {
       descBullets: [
         "Learned responsive design principles and frontend frameworks",
         "Converted business requirements into intuitive web interfaces",
+        "Gained experience with version control and collaborative development tools",
       ]
     }
   ]
@@ -415,7 +428,7 @@ const resumeSection = {
 };
 
 const contactInfo = {
-  title: emoji("Contact Me ☎️"),
+  title: emoji("Contact Me"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
   number: "+61 4490-94743",
